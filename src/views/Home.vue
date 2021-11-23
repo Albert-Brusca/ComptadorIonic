@@ -1,7 +1,7 @@
 <template>
   <ion-page>
     <ion-header :translucent="true">
-      <ion-toolbar>
+      <ion-toolbar color="secondary">
         <ion-title>Time fighter</ion-title>
         <ion-buttons slot="primary">
           <ion-button color="primary" fill="solid" @click="info">
@@ -12,7 +12,7 @@
 
     </ion-header>
     
-    <ion-content :fullscreen="true">
+    <ion-content :fullscreen="true" color="tertiary">
       <ion-header class="ion-no-border ion-padding-top ion-padding-horizontal">
         <ion-grid>
           <ion-row>
